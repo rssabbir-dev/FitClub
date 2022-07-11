@@ -31,6 +31,7 @@ section {
     padding: 15px 40px;
     border-radius: 5px;
     font-size: 0.9rem;
+    cursor: pointer;
 }
 
 .secondary-btn {
@@ -85,6 +86,7 @@ nav>div {
 
 .nav-logo img {
     height: 45px;
+    cursor: pointer;
 }
 
 .nav-menu {
@@ -95,6 +97,10 @@ nav>div {
 .nav-menu li {
     list-style: none;
     /* flex: 1; */
+}
+.nav-menu li:hover{
+    color: #f48915;
+    cursor: pointer;
 }
 
 .header-container {
@@ -153,6 +159,7 @@ nav>div {
 .header-count {
     display: flex;
     gap: 2rem;
+    cursor: pointer;
 }
 
 .font2rem {
@@ -201,6 +208,7 @@ nav>div {
     margin-left: auto;
     margin-top: 30px;
     margin-right: 80px;
+    cursor: pointer;
 }
 
 .kcal-img img {
@@ -219,6 +227,7 @@ nav>div {
     width: fit-content;
     gap: 2rem;
     padding: 20px;
+    cursor: pointer;
 }
 
 .kcal-text {
@@ -236,6 +245,7 @@ nav>div {
 .program-item {
     background-color: gray;
     padding: 2rem;
+    cursor: pointer;
 }
 
 .program-item:hover {
@@ -273,6 +283,7 @@ nav>div {
     gap: 1rem;
     margin: 15px 0px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .tick-text img {
@@ -296,6 +307,7 @@ nav>div {
 
 .choose-left>img {
     object-fit: cover;
+    cursor: pointer;
 }
 
 .choose-left>:first-child {
@@ -336,6 +348,7 @@ nav>div {
     padding: 30px;
     width: 25%;
     position: relative;
+    cursor: pointer;
 }
 
 .plan-blur-2 {
@@ -392,7 +405,7 @@ nav>div {
 }
 .bordered-img {
     position: relative;
-
+    cursor: pointer;
 }
 .img-back{
     position: absolute;
@@ -443,4 +456,31 @@ nav>div {
 ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     color: rgb(231, 226, 226);
+}
+
+footer{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    height:300px;
+    border-top: 2px solid white;
+    position: relative;
+}
+.social-icon img{
+    width:30px;
+    margin: 50px;
+    cursor: pointer;
+}
+footer>img{
+    height:50px;
+    cursor: pointer;
+}
+.footer-blur-1{
+    left:20rem;
+    background:#ff730052;
+}
+.footer-blur-2{
+    right:20rem;
+    background:#ff000052;
 }
