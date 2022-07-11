@@ -372,3 +372,75 @@ nav>div {
 .active-plan button {
     color: #F48915
 }
+
+.testimonial{
+    display:flex;
+    justify-content: center;
+}
+.testimonial>div {
+    flex-basis: 45%;
+}
+.testimonial h1{
+    margin:20px 0px;
+    line-height:5rem;
+}
+.testimonial p{
+    line-height:2.5rem;
+}
+.testimonial img{
+    height:300px;
+}
+.bordered-img {
+    position: relative;
+
+}
+.img-back{
+    position: absolute;
+    left:1rem;
+    top: 1rem;
+    height:300px;
+    width:244px;
+    background-image: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+    z-index: -1;
+}
+.img-border{
+    position:absolute;
+    left:-1rem;
+    top: -1rem;
+    height: 300px;
+    width: 244px;
+    border:2px solid orange;
+    z-index: -1;
+}
+
+.testimonial-right{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.newsletter{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.newsletter> div{
+    flex: 1;
+}
+.email-box{
+    background-color: #808080;
+    padding: 20px 40px;
+    width:70%;
+    display: flex;
+    justify-content:space-between;
+}
+.email-box input{
+    background-color: transparent;
+    border:none;
+    outline:none;
+    color:white;
+}
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: rgb(231, 226, 226);
+}
