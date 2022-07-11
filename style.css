@@ -48,27 +48,27 @@ section {
     color: #F48915;
     font-weight: 700;
 }
+
 .section-title {
     display: flex;
     gap: 2rem;
-    justify-content:center;
-    font-size:3rem;
+    justify-content: center;
+    font-size: 3rem;
     font-style: italic;
 }
+
 header {
     height: 100vh;
     position: relative;
 }
 
-header::before {
-    content: "";
+.blur {
     background-color: rgb(253 120 43 / 69%);
     position: absolute;
     width: 22rem;
     height: 30rem;
     border-radius: 50%;
     filter: blur(150px);
-    left: 0;
     z-index: -1;
 }
 
@@ -258,13 +258,15 @@ nav>div {
     line-height: 30px;
 }
 
-.why-choose{
-    display:flex;
+.why-choose {
+    display: flex;
     gap: 2rem;
 }
-.why-choose > div {
-    flex:1;
+
+.why-choose>div {
+    flex: 1;
 }
+
 .tick-text {
     display: flex;
     align-items: center;
@@ -319,4 +321,54 @@ nav>div {
     grid-row: 2;
     height: 11.2rem;
     width: 10rem;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 100px;
+    ;
+}
+
+.plan {
+    background-color: #656565;
+    padding: 30px;
+    width: 25%;
+    position: relative;
+}
+
+.plan-blur-2 {
+    right: 0;
+}
+
+.plan img {
+    margin-bottom: 20px;
+}
+
+.plan svg {
+    fill: white;
+    margin-bottom: 20px
+}
+
+.plan h1 {
+    margin: 20px 0px;
+}
+
+.plan>div {
+    margin: 20px 0px;
+}
+
+.plan button {
+    width: 100%;
+    font-weight: 700;
+}
+
+.active-plan {
+    background-image: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+    transform: scale(1.1)
+}
+
+.active-plan button {
+    color: #F48915
 }
